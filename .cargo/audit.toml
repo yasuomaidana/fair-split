@@ -1,0 +1,6 @@
+# Security advisory configuration for cargo-audit.
+# Any advisory fails `cargo audit`; scripts/check-audit-ignores.sh (workflow
+# audit-ignores.yml) fails when an ignored advisory no longer applies.
+
+[advisories]
+ignore = []

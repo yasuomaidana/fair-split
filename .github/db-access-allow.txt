@@ -1,0 +1,2 @@
+# Exceptions to scripts/check-db-access.sh (SQL only through Diesel).
+# Format: <path prefix> <reason>. Every entry names the ticket that removes it; the list only shrinks.
